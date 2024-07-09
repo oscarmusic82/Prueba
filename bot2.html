@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bot de Apuestas</title>
+    <style>
+        body {
+            background-color: #333;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #1b1b1b;
+            padding: 10px;
+        }
+        .header input {
+            width: 80%;
+            padding: 5px;
+            border: 1px solid #444;
+            border-radius: 5px;
+            background-color: #2b2b2b;
+            color: #fff;
+        }
+        .header span {
+            margin-right: 10px;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+        }
+        .buttons button {
+            margin: 0 5px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: #fff;
+            cursor: pointer;
+        }
+        .buttons button:hover {
+            background-color: #45a049;
+        }
+        .tabs {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+        }
+        .tabs button {
+            margin: 0 5px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #444;
+            color: #fff;
+            cursor: pointer;
+        }
+        .tabs button:hover {
+            background-color: #555;
+        }
+        .content {
+            height: 400px;
+            background-color: #1b1b1b;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            background-color: #1b1b1b;
+            padding: 10px;
+            border-top: 1px solid #444;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <span>Saldo disponible:</span>
+        <input type="text" value="Esperando autenticación..." disabled>
+        <span>Usuario: luzdoherrera56@gmail.com</span>
+    </div>
+    <div class="buttons">
+        <button>Start</button>
+        <button>Stop</button>
+        <button>Configurar</button>
+        <button>Generar Reporte</button>
+    </div>
+    <div class="tabs">
+        <button>Fútbol</button>
+        <button>Baloncesto</button>
+        <button>Carreras de Caballos</button>
+        <button>Tenis</button>
+        <button>Jockey</button>
+        <button>Cricket</button>
+    </div>
+    <div class="content"></div>
+    <div class="footer">
+        <span>Total Apuestas: 0</span>
+        <span>Ganancias/Pérdidas Netas: 0.00</span>
+        <span>Apuestas Ganadas: 0</span>
+        <span>Apuestas Perdidas: 0</span>
+        <span>Ganancias Totales: 0.00</span>
+        <span>Pérdidas Totales: 0.00</span>
+    </div>
+    <script>
+        // Aquí puedes añadir la funcionalidad en JavaScript
+    </script>
+</body>
+</html>
